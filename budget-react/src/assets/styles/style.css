@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700|Open+Sans:300,400,600");
-
 @charset "utf-8";
 /**
 *
@@ -332,7 +330,7 @@ button {
     padding-right: 20px;
 }
 
-.social-icon li a i {
+.social-icon li a {
     font-size: 16px;
     color: #ffffff;
 }
@@ -2148,10 +2146,6 @@ aside.author_widget img {
     transition: 0.3s;
 }
 
-.tcd-footer .footer-widget .tcd-newsletter .btn-newsletter i {
-    pointer-events: none;
-}
-
 .tcd-footer .footer-widget .tcd-newsletter .btn-newsletter:hover {
     color: #00b63e;
 }
@@ -2164,22 +2158,16 @@ aside.author_widget img {
     display: inline-block;
     text-align: center;
     background: transparent;
+    color: #152644;
+    font-size: 16px;
     border: 1px solid #152644;
     transition: 0.3s;
 }
 
-.tcd-footer .footer-widget .social-icon li a i {
-    font-size: 16px;
-    color: #152644;
-}
-
 .tcd-footer .footer-widget .social-icon li a:hover {
     background: #152644;
-    opacity: 1;
-}
-
-.tcd-footer .footer-widget .social-icon li a:hover i {
     color: #ffffff;
+    opacity: 1;
 }
 
 .tcd-footer .footer-widget .social-icon li:last-child {
@@ -2206,15 +2194,15 @@ aside.author_widget img {
     text-align: center;
     bottom: 40px;
     cursor: pointer;
-    display: none;
+    display: block;
     position: fixed;
     right: 40px;
     z-index: 999;
 }
 
-#toTop i {
+#toTop a {
+    display: inline-block;
     font-size: 18px;
-    transform: rotate(-45deg);
     color: #FFF;
     background: #00b63e;
     height: 48px;
@@ -2224,6 +2212,6 @@ aside.author_widget img {
     text-indent: 2px;
 }
 
-#toTop i:hover {
+#toTop a:hover {
     opacity: 0.8;
 }
