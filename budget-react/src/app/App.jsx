@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 
 import HomePage from '../pages/home';
 
+import '../components/FontAwesomeIcons';
+
 function App() {
     return (
         <div className='App'>
