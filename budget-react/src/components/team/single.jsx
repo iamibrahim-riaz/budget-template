@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function SingleTeam(props) {
-	return(
+	return( 
 		<div className="single-team">
 		    <div className="team-img">
 		        <img 
