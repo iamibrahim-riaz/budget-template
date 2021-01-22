@@ -285,6 +285,10 @@ button {
 }
 
 /*Section Title*/
+.sec-title {
+    max-width: 800px;
+    margin: 0 auto;
+}
 .sec-title .title {
     margin-bottom: 25px;
 }
